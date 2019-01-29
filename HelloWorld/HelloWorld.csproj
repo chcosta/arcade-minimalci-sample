@@ -6,4 +6,8 @@
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 
+  <Target Name="MyBuild"
+          AfterTargets="Build">
+    <Error Text="Failed" />
+  </Target>
 </Project>
