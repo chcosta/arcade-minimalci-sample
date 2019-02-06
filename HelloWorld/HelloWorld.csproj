@@ -6,8 +6,9 @@
     <IsPackable>true</IsPackable>
   </PropertyGroup>
 
-  <Target Name="MyBuild"
-          AfterTargets="Build">
-    <Error Text="Failed" />
+
+  <Target Name="MyPublish"
+          BeforeTargets="PublishPackagesToBlobFeed">
+    <Message Importance="High" Text="My publish" />
   </Target>
 </Project>

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="$(NuGetPackageRoot)microsoft.dotnet.build.tasks.feed\2.2.0-beta.19072.10\build\Microsoft.DotNet.Build.Tasks.Feed.targets" />
+
+
+  <Target Name="MyPublish"
+          BeforeTargets="PublishPackagesToBlobFeed">
+    <Message Importance="High" Text="My publish" >
+  </Target>
+
+</Project>
