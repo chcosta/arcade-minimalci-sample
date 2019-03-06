@@ -2,8 +2,7 @@
 jobs:
 - job: Windows_NT
   pool:
-    name: NetCorePublic-Int-Pool
-    queue: BuildPool.Windows.10.Amd64.VS2017.Open
+    name: Hosted VS2017
   steps:
   - script: echo "##vso[task.debug]Debug message"
   - script: echo "##vso[task.logissue type=warning]Danger will robinsion"
