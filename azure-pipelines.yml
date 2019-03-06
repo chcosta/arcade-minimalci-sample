@@ -41,7 +41,7 @@ jobs:
     helixRepo: dotnet/arcade-minimalci-sample
     pool:
       name: NetCorePublic-Int-Pool
-      queue: Windows.10.Amd64.Open
+      queue: BuildPool.Windows.10.Amd64.VS2017.Open
     strategy:
       matrix:
         debug_configuration:
