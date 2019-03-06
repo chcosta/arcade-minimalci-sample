@@ -7,6 +7,6 @@ jobs:
   steps:
   - script: echo "##vso[task.debug]Debug message"
   - script: echo "##vso[task.logissue type=warning]Danger will robinsion"
-#  - script: echo "##vso[task.logissue type=error]Failure to launch"
+  - script: echo "##vso[task.logissue type=error]Failure to launch"
   - script: echo "##vso[task.debug]still trucking"
   - script: echo "##vso[task.complete result=Failed;]"
